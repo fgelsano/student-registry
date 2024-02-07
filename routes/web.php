@@ -14,5 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    dd("Wala lang, feel ko lang!");
     return view('welcome');
 });
